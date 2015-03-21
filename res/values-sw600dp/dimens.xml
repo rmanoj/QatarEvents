@@ -1,0 +1,142 @@
+<resources>
+
+    <!--
+         Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
+    -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    
+    <dimen name="dim_doha_marginTop">168dp</dimen>
+    <dimen name="dim_doha_textSize">82sp</dimen>
+    <dimen name="dim_events_marginTop">65dp</dimen>
+    <dimen name="dim_events_textSize">82sp</dimen>
+    
+    
+    <dimen name="dim_ahalogin_marginBottom">41dp</dimen>
+    <dimen name="dim_ahalogin_textSize">25sp</dimen>
+    
+    <dimen name="dim_ls1_marginTop">65dp</dimen>
+    <dimen name="dim_poweredby_marginTop">58dp</dimen>
+    <dimen name="dim_poweredby_textSize">25sp</dimen>
+    
+    <dimen name="dim_signup_i_marginRight">8dp</dimen>
+    <dimen name="dim_signup_i_textSize">50sp</dimen>
+    
+    <dimen name="dim_heart_textSize">65sp</dimen>
+    
+    <dimen name="dim_signup_q_marginLeft">8dp</dimen>
+    <dimen name="dim_signup_q_textSize">50sp</dimen>
+    
+    <dimen name="dim_facebook_login_marginTop">120dp</dimen>
+    <dimen name="dim_facebook_login_marginBottom">30dp</dimen>
+    <dimen name="dim_facebook_login_padding">18dip</dimen> 
+    <dimen name="dim_facebook_login_textSize">36sp</dimen> 
+    
+    <dimen name="dim_registerby_email_marginBottom">51dp</dimen>
+    <dimen name="dim_registerby_email_padding">18dip</dimen>
+    <dimen name="dim_registerby_email_textSize">36sp</dimen>
+     
+    <dimen name="dim_sb_shape_padding">10dp</dimen>
+    <dimen name="dim_sb_corner_bottomRightRadius">35dp</dimen>
+    <dimen name="dim_sb_corner_bottomLeftRadius">35dp</dimen>  
+    <dimen name="dim_sb_corner_topRightRadius">35dp</dimen>
+    <dimen name="dim_sb_corner_topLeftRadius">35dp</dimen>
+    
+    <dimen name="dim_sb_stroke_width">3dp</dimen>
+    
+    <dimen name="custom_actionbar_rlayout_height">90dp</dimen>
+    <dimen name="custom_actionbar_title_textSize">35sp</dimen>
+    
+    <!-- activity_register.xml -->
+    <dimen name="register_llayout_paddingBottom">20dp</dimen>
+    <dimen name="register_llayout_paddingTop">20dp</dimen>
+    <dimen name="register_signuptofindout_textSize">30sp</dimen>
+    <dimen name="register_llayout_camera_marginBottom">30dp</dimen>
+    <dimen name="register_llayout_camera_marginTop">30dp</dimen>
+    <dimen name="register_click_image_width">170dp</dimen>
+    <dimen name="register_click_image_height">170dp</dimen>
+    <dimen name="register_view_height">5dp</dimen>
+    
+    <dimen name="register_llayout_form_paddingBottom">15dp</dimen>
+    <dimen name="register_llayout_form_paddingLeft">50dp</dimen>
+    <dimen name="register_llayout_form_paddingRight">50dp</dimen>
+    <dimen name="register_llayout_form_paddingTop">15dp</dimen>
+    
+    <dimen name="register_name_height">80dp</dimen>
+    <dimen name="register_name_paddingLeft">25dp</dimen>
+    <dimen name="register_name_paddingRight">25dp</dimen>
+    <dimen name="register_name_textSize">28sp</dimen>
+    <dimen name="register_viewname_height">1px</dimen>
+    
+    <dimen name="register_email_height">80dp</dimen>
+    <dimen name="register_email_paddingLeft">25dp</dimen>
+    <dimen name="register_email_paddingRight">25dp</dimen>
+    <dimen name="register_email_textSize">28sp</dimen>
+    <dimen name="register_viewemail_height">1px</dimen>
+    
+    <dimen name="register_password_height">80dp</dimen>
+    <dimen name="register_password_paddingLeft">25dp</dimen>
+    <dimen name="register_password_paddingRight">25dp</dimen>
+    <dimen name="register_password_textSize">28sp</dimen>
+    <dimen name="register_viewpassword_height">1px</dimen>
+    
+    <dimen name="register_vpassword_height">80dp</dimen>
+    <dimen name="register_vpassword_paddingLeft">25dp</dimen>
+    <dimen name="register_vpassword_paddingRight">25dp</dimen>
+    <dimen name="register_vpassword_textSize">28sp</dimen>
+    <dimen name="register_viewvpassword_height">1px</dimen>
+    
+    <dimen name="register_yalla_width">340dp</dimen>
+    <dimen name="register_yalla_height">70dp</dimen>
+    <dimen name="register_yalla_marginTop">60dp</dimen>
+    <dimen name="register_yalla_textSize">40sp</dimen>
+    <dimen name="register_shadowbottom_height">5dp</dimen>
+    
+    <!--  activity_signin.xml -->
+    <dimen name="signin_llayout_paddingBottom">25dp</dimen>
+    <dimen name="signin_llayout_paddingTop">45dp</dimen>
+	
+    <dimen name="signin_fbbutton_width">455dp</dimen>
+    <dimen name="signin_fbbutton_heigth">80dp</dimen>
+    <dimen name="signin_fbbutton_marginBottom">65dp</dimen>
+                
+    <dimen name="signin_viewline_height">2px</dimen>
+    
+    <dimen name="signin_orText_paddingLeft">15px</dimen>
+    <dimen name="signin_orText_paddingRight">15px</dimen>
+    <dimen name="signin_orText_textSize">36sp</dimen>
+    
+    <dimen name="signin_emailLabel_marginBottom">40dp</dimen>
+    <dimen name="signin_emailLabel_marginTop">40dp</dimen>
+    <dimen name="signin_emailLabel_textSize">30sp</dimen>
+    
+    <dimen name="signin_shadowTop_layout_height">5dp</dimen>
+    
+    <dimen name="signin_loginLayout_paddingBottom">20dp</dimen>
+    <dimen name="signin_loginLayout_paddingLeft">60dp</dimen>
+    <dimen name="signin_loginLayout_paddingRight">60dp</dimen>
+    <dimen name="signin_loginLayout_paddingTop">20dp</dimen>
+    
+    <dimen name="signin_emailText_height">75dp</dimen>
+    <dimen name="signin_emailText_paddingLeft">15dp</dimen>
+    <dimen name="signin_emailText_paddingRight">15dp</dimen>
+    <dimen name="signin_emailText_textSize">27sp</dimen>
+    <dimen name="signin_viewemailaddress_height">1px</dimen>
+        
+    <dimen name="signin_passwordText_layout_height">75dp</dimen>
+    <dimen name="signin_passwordText_paddingLeft">15dp</dimen>
+    <dimen name="signin_passwordText_paddingRight">15dp</dimen>   
+    <dimen name="signin_passwordText_textSize">27sp</dimen>
+    
+    <dimen name="signin_shadowBottom_layout_height">5dp</dimen>
+    
+    <dimen name="signin_bt_login_layout_width">340dp</dimen>   
+    <dimen name="signin_bt_login_layout_height">75dp</dimen>            
+    <dimen name="signin_bt_login_layout_marginTop">60dp</dimen> 
+    <dimen name="signin_bt_login_layout_textSize">40sp</dimen>
+    
+    <dimen name="signin_forgotPasswordLabel_layout_height">60dp</dimen> 
+    <dimen name="signin_forgotPasswordLabel_layout_marginTop">50dp</dimen>
+    <dimen name="signin_forgotPasswordLabel_layout_textSize">26sp</dimen>
+</resources>

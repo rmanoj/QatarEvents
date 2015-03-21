@@ -1,0 +1,305 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- sliding menu -->
+    <dimen name="slidingmenu_shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="dim_doha_marginTop">78dp</dimen>
+    <dimen name="dim_doha_textSize">42sp</dimen>
+    <dimen name="dim_events_marginTop">35dp</dimen>
+    <dimen name="dim_events_textSize">42dp</dimen>
+    
+    
+    <dimen name="dim_ahalogin_marginBottom">41dp</dimen>
+    <dimen name="dim_ahalogin_textSize">13sp</dimen>
+    
+    <dimen name="dim_ls1_marginTop">34dp</dimen>
+    <dimen name="dim_poweredby_marginTop">28dp</dimen>
+    <dimen name="dim_poweredby_textSize">15sp</dimen>
+    
+    <dimen name="dim_signup_i_marginRight">8dp</dimen>
+    <dimen name="dim_signup_i_textSize">30sp</dimen>
+    
+    <dimen name="dim_heart_textSize">35sp</dimen>
+    
+    <dimen name="dim_signup_q_marginLeft">8dp</dimen>
+    <dimen name="dim_signup_q_textSize">30sp</dimen>
+    
+    <dimen name="dim_facebook_login_marginTop">75dp</dimen>
+    <dimen name="dim_facebook_login_marginBottom">17dp</dimen>
+    <dimen name="dim_facebook_login_padding">8dip</dimen> 
+    <dimen name="dim_facebook_login_textSize">20sp</dimen> 
+    
+    <dimen name="dim_registerby_email_marginBottom">51dp</dimen>
+    <dimen name="dim_registerby_email_padding">8dip</dimen>
+    <dimen name="dim_registerby_email_textSize">20sp</dimen> 
+    
+    <dimen name="dim_sb_shape_padding">10dp</dimen>
+    <dimen name="dim_sb_corner_bottomRightRadius">20dp</dimen>
+    <dimen name="dim_sb_corner_bottomLeftRadius">20dp</dimen>  
+    <dimen name="dim_sb_corner_topRightRadius">20dp</dimen>
+    <dimen name="dim_sb_corner_topLeftRadius">20dp</dimen>
+    
+    <dimen name="dim_sb_stroke_width">2dp</dimen>
+	
+    <!-- custom_actionbar.xml -->
+    <dimen name="custom_actionbar_rlayout_height">45dp</dimen>
+    <dimen name="custom_actionbar_title_textSize">20sp</dimen>
+    
+    <!-- activity_register.xml -->
+    <dimen name="register_llayout_paddingBottom">10dp</dimen>
+    <dimen name="register_llayout_paddingTop">10dp</dimen>
+    <dimen name="register_signuptofindout_textSize">16sp</dimen>
+    <dimen name="register_llayout_camera_marginBottom">10dp</dimen>
+    <dimen name="register_llayout_camera_marginTop">10dp</dimen>
+    <dimen name="register_click_image_width">90dp</dimen>
+    <dimen name="register_click_image_height">90dp</dimen>
+    <dimen name="register_view_height">5dp</dimen>
+    
+    <dimen name="register_llayout_form_paddingBottom">10dp</dimen>
+    <dimen name="register_llayout_form_paddingLeft">30dp</dimen>
+    <dimen name="register_llayout_form_paddingRight">30dp</dimen>
+    <dimen name="register_llayout_form_paddingTop">10dp</dimen>
+    
+    <dimen name="register_name_height">40dp</dimen>
+    <dimen name="register_name_paddingLeft">10dp</dimen>
+    <dimen name="register_name_paddingRight">10dp</dimen>
+    <dimen name="register_name_textSize">14sp</dimen>
+    <dimen name="register_viewname_height">1px</dimen>
+    
+    <dimen name="register_email_height">40dp</dimen>
+    <dimen name="register_email_paddingLeft">10dp</dimen>
+    <dimen name="register_email_paddingRight">10dp</dimen>
+    <dimen name="register_email_textSize">14sp</dimen>
+    <dimen name="register_viewemail_height">1px</dimen>
+    
+    <dimen name="register_password_height">40dp</dimen>
+    <dimen name="register_password_paddingLeft">10dp</dimen>
+    <dimen name="register_password_paddingRight">10dp</dimen>
+    <dimen name="register_password_textSize">14sp</dimen>
+    <dimen name="register_viewpassword_height">1px</dimen>
+    
+    <dimen name="register_vpassword_height">40dp</dimen>
+    <dimen name="register_vpassword_paddingLeft">10dp</dimen>
+    <dimen name="register_vpassword_paddingRight">10dp</dimen>
+    <dimen name="register_vpassword_textSize">14sp</dimen>
+    <dimen name="register_viewvpassword_height">1px</dimen>
+    
+    <dimen name="register_yalla_width">180dp</dimen>
+    <dimen name="register_yalla_height">40dp</dimen>
+    <dimen name="register_yalla_marginTop">25dp</dimen>
+    <dimen name="register_yalla_textSize">20sp</dimen>
+    <dimen name="register_shadowbottom_height">5dp</dimen>
+    
+    <!--  activity_signin.xml -->
+    <dimen name="signin_llayout_paddingBottom">25dp</dimen>
+    <dimen name="signin_llayout_paddingTop">25dp</dimen>
+	
+    <dimen name="signin_fbbutton_width">232dp</dimen>
+    <dimen name="signin_fbbutton_heigth">40dp</dimen>
+    <dimen name="signin_fbbutton_marginBottom">25dp</dimen>
+                
+    <dimen name="signin_viewline_height">1px</dimen>
+    
+    <dimen name="signin_orText_paddingLeft">10px</dimen>
+    <dimen name="signin_orText_paddingRight">10px</dimen>
+    <dimen name="signin_orText_textSize">16sp</dimen>
+    
+    <dimen name="signin_emailLabel_marginBottom">25dp</dimen>
+    <dimen name="signin_emailLabel_marginTop">25dp</dimen>
+    <dimen name="signin_emailLabel_textSize">16sp</dimen>
+    
+    <dimen name="signin_shadowTop_layout_height">5dp</dimen>
+    
+    <dimen name="signin_loginLayout_paddingBottom">10dp</dimen>
+    <dimen name="signin_loginLayout_paddingLeft">30dp</dimen>
+    <dimen name="signin_loginLayout_paddingRight">30dp</dimen>
+    <dimen name="signin_loginLayout_paddingTop">10dp</dimen>
+    
+    <dimen name="signin_emailText_height">40dp</dimen>
+    <dimen name="signin_emailText_paddingLeft">10dp</dimen>
+    <dimen name="signin_emailText_paddingRight">10dp</dimen>
+    <dimen name="signin_emailText_textSize">14sp</dimen>
+    <dimen name="signin_viewemailaddress_height">1px</dimen>
+        
+    <dimen name="signin_passwordText_layout_height">40dp</dimen>
+    <dimen name="signin_passwordText_paddingLeft">10dp</dimen>
+    <dimen name="signin_passwordText_paddingRight">10dp</dimen>   
+    <dimen name="signin_passwordText_textSize">14sp</dimen>
+    
+    <dimen name="signin_shadowBottom_layout_height">5dp</dimen>
+    
+    <dimen name="signin_bt_login_layout_width">180dp</dimen>   
+    <dimen name="signin_bt_login_layout_height">40dp</dimen>            
+    <dimen name="signin_bt_login_layout_marginTop">25dp</dimen> 
+    <dimen name="signin_bt_login_layout_textSize">20sp</dimen>
+    
+    <dimen name="signin_forgotPasswordLabel_layout_height">30dp</dimen> 
+    <dimen name="signin_forgotPasswordLabel_layout_marginTop">25dp</dimen>
+    <dimen name="signin_forgotPasswordLabel_layout_textSize">14sp</dimen>
+    
+    <!-- activity_menu.xml -->
+    <dimen name="menu_mainrlayout_marginTop">5dp</dimen>
+    <dimen name="menu_pimage_width">70dp</dimen>
+    <dimen name="menu_pimage_height">70dp</dimen>
+    
+    <dimen name="menu_search_width">25dp</dimen>
+    <dimen name="menu_search_height">25dp</dimen>
+    <dimen name="menu_search_marginRight">25dp</dimen>
+    
+    <dimen name="menu_settings_width">25dp</dimen>
+    <dimen name="menu_settings_height">25dp</dimen>
+    <dimen name="menu_settings_marginLeft">25dp</dimen>
+    
+    <dimen name="menu_username_marginTop">5dp</dimen>
+    <dimen name="menu_username_maxLines">1dp</dimen>
+    <dimen name="menu_username_paddingLeft">20dp</dimen>
+    <dimen name="menu_username_paddingRight">20dp</dimen>
+    <dimen name="menu_username_textSize">16sp</dimen>
+    
+    <dimen name="menu_subrlayout_marginBottom">5dp</dimen>
+    <dimen name="menu_subrlayout_marginTop">5dp</dimen>
+    
+    <dimen name="menu_events_height">30dp</dimen>
+    <dimen name="menu_events_paddingLeft">10dp</dimen>
+    <dimen name="menu_events_paddingRight">10dp</dimen>
+    <dimen name="menu_events_textSize">14sp</dimen>
+    
+    <dimen name="menu_view1_height">1px</dimen>
+    
+    <dimen name="menu_favorites_llayout_height">35dp</dimen>
+    <dimen name="menu_favorites_llayout_paddingLeft">20dp</dimen>
+    <dimen name="menu_favorites_llayout_paddingRight">20dp</dimen>
+    
+    <dimen name="menu_favicon_width">20dp</dimen>
+    <dimen name="menu_favicon_height">20dp</dimen>
+    
+    <dimen name="menu_favtext_paddingLeft">10dp</dimen>
+    <dimen name="menu_favtext_paddingRight">10dp</dimen>
+    <dimen name="menu_favtext_textSize">16sp</dimen>
+    
+    <dimen name="menu_view2_height">1px</dimen>
+    
+    <dimen name="menu_trending_llayout_height">35dp</dimen>
+    <dimen name="menu_trending_llayout_paddingLeft">20dp</dimen>
+    <dimen name="menu_trending_llayout_paddingRight">20dp</dimen>
+    
+    <dimen name="menu_trend_icon_width">20dp</dimen>
+    <dimen name="menu_trend_icon_height">20dp</dimen>
+	    
+    <dimen name="menu_trendtext_paddingLeft">10dp</dimen>
+    <dimen name="menu_trendtext_paddingRight">10dp</dimen>
+    <dimen name="menu_trendtext_textSize">16sp</dimen>
+    
+    <dimen name="menu_view3_height">1px</dimen>
+    
+    <!-- activity_menu.xml -->
+    <dimen name="mainrlayout_marginTop">5dp</dimen>
+    <dimen name="profileimage_width">70dp</dimen>
+    <dimen name="profileimage_height">70dp</dimen>
+    
+    <dimen name="search_width">25dp</dimen>
+    <dimen name="search_height">25dp</dimen>
+    <dimen name="search_marginRight">25dp</dimen>
+    
+    <dimen name="settings_width">25dp</dimen>
+    <dimen name="settings_height">25dp</dimen>
+    <dimen name="settings_marginLeft">25dp</dimen>
+    
+    <dimen name="username_marginTop">5dp</dimen>
+    <dimen name="username_paddingLeft">20dp</dimen>
+    <dimen name="username_paddingRight">20dp</dimen>
+    <dimen name="username_textSize">16sp</dimen>
+    
+    <dimen name="subrlayout_marginBottom">5dp</dimen>
+    <dimen name="subrlayout_marginTop">5dp</dimen>
+    
+    <dimen name="events_height">30dp</dimen>
+    <dimen name="events_paddingLeft">10dp</dimen>
+    <dimen name="events_paddingRight">10dp</dimen>
+    <dimen name="events_textSize">14sp</dimen>
+    
+    <dimen name="view1_height">1px</dimen>
+    
+	<dimen name="favorites_height">35dp</dimen>
+    <dimen name="favorites_paddingLeft">20dp</dimen>
+    <dimen name="favorites_paddingRight">20dp</dimen>
+    
+    <dimen name="favicon_width">20dp</dimen>
+    <dimen name="favicon_height">20dp</dimen>
+    
+    <dimen name="favtxt_paddingLeft">10dp</dimen>
+    <dimen name="favtxt_paddingRight">10dp</dimen>
+    <dimen name="favtxt_textSize">16sp</dimen>
+    
+    <dimen name="view2_height">1px</dimen>
+    
+    <dimen name="trending_height">35dp</dimen>
+    <dimen name="trending_paddingLeft">20dp</dimen>
+    <dimen name="trending_paddingRight">20dp</dimen>
+    
+    <dimen name="trendicon_width">20dp</dimen>
+    <dimen name="trendicon_height">20dp</dimen>
+    
+    <dimen name="trendtxt_paddingLeft">10dp</dimen>
+    <dimen name="trendtxt_paddingRight">10dp</dimen>
+    <dimen name="trendtxt_textSize">16sp</dimen>
+    
+    <dimen name="view3_height">1px</dimen>
+    
+    <dimen name="mychannels_height">30dp</dimen>
+    <dimen name="mychannels_paddingLeft">10dp</dimen>
+    <dimen name="mychannels_paddingRight">10dp</dimen>
+    <dimen name="mychannels_textSize">14sp</dimen>
+    
+    <dimen name="addchannels_height">35dp</dimen>
+    <dimen name="addchannels_paddingLeft">20dp</dimen>
+    <dimen name="addchannels_paddingRight">20dp</dimen>
+    
+    <dimen name="acicon_width">20dp</dimen>
+    <dimen name="acicon_height">20dp</dimen>
+    
+    <dimen name="actxt_paddingLeft">10dp</dimen>
+    <dimen name="actxt_paddingRight">10dp</dimen>
+    <dimen name="actxt_textSize">16sp</dimen>
+    
+    <dimen name="feedback_height">30dp</dimen>
+    <dimen name="feedback_paddingLeft">10dp</dimen>
+    <dimen name="feedback_paddingRight">10dp</dimen>
+    <dimen name="feedback_textSize">14sp</dimen>
+    
+    <dimen name="view4_height">1px</dimen>
+    
+    <dimen name="spreadtheworld_height">35dp</dimen>
+    <dimen name="spreadtheworld_paddingLeft">20dp</dimen>
+    <dimen name="spreadtheworld_paddingRight">20dp</dimen>
+    
+    <dimen name="stwicon_width">20dp</dimen>
+    <dimen name="stwicon_height">20dp</dimen>
+    
+    <dimen name="stwtxt_paddingLeft">10dp</dimen>
+    <dimen name="stwtxt_paddingRight">10dp</dimen>
+    <dimen name="stwtxt_textSize">16sp</dimen>
+    
+    <dimen name="view5_height">1px</dimen>
+    
+    <dimen name="getintouch_height">35dp</dimen>
+    <dimen name="getintouch_paddingLeft">20dp</dimen>
+    <dimen name="getintouch_paddingRight">20dp</dimen>
+    
+    <dimen name="giticon_width">20dp</dimen>
+    <dimen name="giticon_height">20dp</dimen>
+    <dimen name="giticon_paddingLeft">20dp</dimen>
+    <dimen name="giticon_paddingRight">20dp</dimen>
+    
+    <dimen name="gittxt_paddingLeft">10dp</dimen>
+    <dimen name="gittxt_paddingRight">10dp</dimen>
+    <dimen name="gittxt_textSize">16sp</dimen>
+    
+    <dimen name="view6_height">5dp</dimen>
+    <dimen name="view7_height">5dp</dimen>
+</resources>

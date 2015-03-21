@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#373A3E" >
+
+    
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/signin_llayout_paddingBottom"
+            android:paddingTop="@dimen/signin_llayout_paddingTop" >
+
+            <Button
+                android:id="@+id/fbbutton"
+                android:layout_width="@dimen/signin_fbbutton_width"
+                android:layout_height="@dimen/signin_fbbutton_heigth"
+                android:layout_marginBottom="@dimen/signin_fbbutton_marginBottom"
+                android:background="@drawable/signup_with_facebook" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <View
+                    android:id="@+id/viewline"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/signin_viewline_height"
+                    android:layout_centerInParent="true"
+                    android:background="#575757" />
+
+                <TextView
+                    android:id="@+id/orText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="#373A3E"
+                    android:paddingLeft="@dimen/signin_orText_paddingLeft"
+                    android:paddingRight="@dimen/signin_orText_paddingRight"
+                    android:text="@string/or"
+                    android:textColor="#A5A6A8"
+                    android:textSize="@dimen/signin_orText_textSize"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/emailLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/signin_emailLabel_marginBottom"
+                android:layout_marginTop="@dimen/signin_emailLabel_marginTop"
+                android:text="@string/use_your_email_address"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/signin_emailLabel_textSize"
+                android:textStyle="normal" />
+
+            <View
+                android:id="@+id/shadowTop"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/signin_shadowTop_layout_height"
+                android:background="@drawable/shadowtop" />
+
+            <LinearLayout
+                android:id="@+id/loginLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/signin_loginLayout_paddingBottom"
+                android:paddingLeft="@dimen/signin_loginLayout_paddingLeft"
+                android:paddingRight="@dimen/signin_loginLayout_paddingRight"
+                android:paddingTop="@dimen/signin_loginLayout_paddingTop" >
+
+                <EditText
+                    android:id="@+id/emailText"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/signin_emailText_height"
+                    android:paddingLeft="@dimen/signin_emailText_paddingLeft"
+                    android:paddingRight="@dimen/signin_emailText_paddingRight"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="@string/your_name"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/signin_emailText_textSize"
+                    android:textStyle="normal" />
+
+                <View
+					android:id="@+id/viewemailaddress"                
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/signin_viewemailaddress_height"
+                    android:background="#8C8C8C" />
+
+                <EditText
+                    android:id="@+id/passwordText"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/signin_passwordText_layout_height"
+                    android:paddingLeft="@dimen/signin_passwordText_paddingLeft"
+                    android:paddingRight="@dimen/signin_passwordText_paddingLeft"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/signin_passwordText_textSize"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/signin_shadowBottom_layout_height"
+                android:background="@drawable/shadowbottom" />
+
+            <Button
+                android:id="@+id/bt_login"
+                android:layout_width="@dimen/signin_bt_login_layout_width"
+                android:layout_height="@dimen/signin_bt_login_layout_height"
+                android:layout_marginTop="@dimen/signin_bt_login_layout_marginTop"
+                android:background="@drawable/roundedcorner" 
+                android:text="@string/yalla"
+                android:textSize="@dimen/signin_bt_login_layout_textSize"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:id="@+id/forgotPasswordLabel"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/signin_forgotPasswordLabel_layout_height"
+                android:layout_marginTop="@dimen/signin_forgotPasswordLabel_layout_marginTop"
+                android:gravity="center"
+                android:text="@string/forgot_password"
+                android:textColor="#8F9193"
+                android:textSize="@dimen/signin_forgotPasswordLabel_layout_textSize"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
